@@ -38,7 +38,7 @@ public class Controller {
            if(fileObj.createNewFile()){
                System.out.println("file was created:" + fileObj.getName());
            }else {
-               System.out.println("file already exist bruhsds");
+               System.out.println("file already exist bruh");
            }
        }catch (IOException e){
            e.printStackTrace();
